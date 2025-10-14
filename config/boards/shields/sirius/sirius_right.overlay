@@ -1,0 +1,19 @@
+#include "sirius.dtsi"
+#include "pmw3610.dtsi"
+#include "input_common.dtsi"
+
+&default_transform {
+    col-offset = <5>;
+};
+
+&spi0 {
+    status = "okay";
+};
+
+&trackball_split { 
+	device = <&trackball>; 
+	};
+
+&trackball_split2 { 
+	status = "disabled"; 
+};

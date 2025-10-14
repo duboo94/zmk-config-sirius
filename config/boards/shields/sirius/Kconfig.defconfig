@@ -1,0 +1,16 @@
+if SHIELD_SIRIUS_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "SIRIUS SPLIT"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SIRIUS_DONGLE || SHIELD_SIRIUS_LEFT || SHIELD_SIRIUS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

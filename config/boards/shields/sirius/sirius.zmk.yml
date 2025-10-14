@@ -1,0 +1,9 @@
+file_format: "1"
+id: sirius
+name: sirius
+type: shield
+url: https://github.com/duboo94/zmk-config-sirius
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - pointer

@@ -1,0 +1,4 @@
+name: sirius
+build:
+  settings:
+    board_root: .

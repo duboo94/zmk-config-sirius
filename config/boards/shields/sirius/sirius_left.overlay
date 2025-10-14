@@ -1,0 +1,15 @@
+#include "sirius.dtsi"
+#include "pmw3610.dtsi"
+#include "input_common.dtsi"
+
+&spi0 {
+    status = "okay";
+};
+
+&trackball_split2 {
+	device = <&trackball2>;
+};
+
+&trackball_split { 
+	status = "disabled"; 
+};
